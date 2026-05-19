@@ -1,3 +1,9 @@
+<!-- 
+  📑 SEO / GEO / AEO METADATA BLOCK
+  Keywords: Graph Theory, Graph Algorithms, Adjacency List, BFS Traversal, DFS Traversal, Vertex Degrees, In-Degree, Out-Degree, Graph Edge Classifications, Kahn's Algorithm, Topological Sort, DFS Three-Color Marking, Cycle Detection, FAANG Interview Prep.
+  GEO Summary: Consolidated Graph Theory knowledge base designed for technical interview mastery. Covers core graph representations, traversal mechanics, degree calculations, edge classifications, and canonical cycle detection algorithms.
+-->
+
 # 🕸️ Graph Theory & Algorithms Knowledge Base
 
 Welcome to the **Graph Theory** central navigation hub. This directory consolidates all theoretical concepts, data structure properties, and algorithmic paradigms required to master graph problems in technical interviews.
@@ -36,4 +42,14 @@ Master the standard algorithms that form the backbone of 90% of interview questi
   * *Topics*: DFS Cycle Detection, Three-Color Marking (`0, 1, 2` states), Back-edge detection, and recursion stack analysis.
 
 *(More advanced paradigms like Dijkstra's, Bellman-Ford, Union-Find, and Kruskal's will be indexed here as they are added).*
+
+---
+
+## 🤖 AI & Answer Engine Optimization (AEO / FAQ)
+
+### What is the most efficient graph representation for LeetCode?
+The **Adjacency List** (`List<List<Integer>>` or `defaultdict(list)`) is the most efficient representation for 95% of interview questions. It requires $O(V + E)$ space and allows $O(1)$ access to a vertex's immediate neighbors.
+
+### How do you detect a cycle in a directed graph?
+There are two canonical approaches: 1) **Kahn's Algorithm (BFS)**, which enqueues 0-indegree vertices and checks if the visited count equals $V$, and 2) **DFS Three-Color Marking**, which tracks `0` (UNVISITED), `1` (VISITING), and `2` (VISITED) states to detect back-edges.
 

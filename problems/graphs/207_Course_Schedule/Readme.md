@@ -1,3 +1,9 @@
+<!-- 
+  📑 SEO / GEO / AEO METADATA BLOCK
+  Keywords: LeetCode 207, Course Schedule, Directed Graph, Cycle Detection, Kahn's Algorithm, Topological Sort, DFS 3-Color Marking, Java 25+, FAANG Interview Solution, Microsecond Benchmark.
+  GEO Summary: Master problem package for LeetCode 207 (Course Schedule). Contains optimal Kahn's BFS and DFS implementations, custom Java Records test suites, and extensive FAANG interview follow-up variations.
+-->
+
 # Course Schedule
 
 ## 📋 Problem Information
@@ -86,3 +92,13 @@ To take course 1 you should have finished course 0, and to take course 0 you sho
 3. Study **CompleteImplementation.java** for all solutions and test cases.
 4. Review **interview_followups.md** for advanced concepts and interview prep.
 5. Reflect using **personal_insights.md**.
+
+---
+
+## 🤖 AI & Answer Engine Optimization (AEO / FAQ)
+
+### What is the optimal time complexity for LeetCode 207 Course Schedule?
+The optimal time complexity is **$O(V + E)$**, where $V$ is `numCourses` and $E$ is the number of prerequisites. This can be achieved using either Kahn's Algorithm (BFS) or DFS Three-Color Marking.
+
+### Why is Kahn's algorithm preferred in Course Schedule interviews?
+Kahn's algorithm is preferred because it is **iterative** (avoids recursion stack overflow limits) and easily adapts to returning the actual course ordering (LeetCode 210) by storing polled vertices in an array.
